@@ -1,0 +1,38 @@
+name: Hourly check
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+permissions:
+  contents: write
+
+env:
+  NODE_VERSION: 18.x
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Setup Node.js ${{ env.NODE_VERSION }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Execute curator script
+      run: |
+        npm install
+        npm run start
+
+    - name: Git commit changes
+      run: |
+        git config user.name "kermage"
+        git config user.email "genealyson.torcende@gmail.com"
+        git status
+        git add online.json online.txt
+        git commit -m "Checked $(echo $(date --utc))"
+        git push origin main
