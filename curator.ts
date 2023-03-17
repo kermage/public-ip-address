@@ -2,6 +2,15 @@ import { createReadStream, writeFileSync } from 'fs';
 import { isIP } from 'net';
 import { createInterface } from 'readline';
 
+const randomize = (array: string[]) => {
+    array.reverse().forEach((item: string, index: number) => {
+        const j = Math.floor(Math.random() * (index + 1));
+        [array[index], array[j]] = [array[j], array[index]];
+    });
+
+    return array;
+}
+
 const check = (url: string): Promise<Response> => fetch(url)
     .then((response: Response) => {
         if (200 !== response.status) {
@@ -15,7 +24,7 @@ const json = async () => {
     const online: Record<string, string> = {}
     const candidates = await import('./candidates.json')
 
-    for await (const url of Object.keys(candidates.default)) {
+    for await (const url of randomize(Object.keys(candidates.default))) {
 		const key: string = candidates[url]
 
 		await check(url)
@@ -60,7 +69,7 @@ const plain = async () => {
 			.catch((error: Error) => console.log(error.message))
     }
 
-    writeFileSync('online.txt', online.join("\n"), 'utf8')
+    writeFileSync('online.txt', randomize(online).join("\n"), 'utf8')
 	console.log('plain', online)
 }
 

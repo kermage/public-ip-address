@@ -10,5 +10,7 @@
 
 ## List of online service
 
+Randomized entries every hour to somewhat not overload a service provider as unmindful developers are likely to only get and use the first item on the list.
+
 - [Plain](https://raw.githubusercontent.com/kermage/public-ip-address/main/online.txt) response
 - [JSON](https://raw.githubusercontent.com/kermage/public-ip-address/main/online.json) response
