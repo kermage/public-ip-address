@@ -1,0 +1,17 @@
+{
+  "name": "public-ip-address",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Gene Alyson Fortunado Torcende",
+    "email": "genealyson.torcende@gmail.com"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "start": "ts-node curator.ts"
+  }
+}
