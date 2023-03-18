@@ -40,7 +40,13 @@ const json = async () => {
 
 				online[url] = key
 			})
-			.catch((error: Error) => console.log(error.message))
+			.catch((error: Error) => {
+				if ('Error' === error.name) {
+					console.log(error.message)
+				} else {
+					console.log(`${url} ${error.message} caused by ${error.cause}`)
+				}
+			})
 	}
 
     writeFileSync('online.json', JSON.stringify(online, null, 2), 'utf8')
@@ -66,7 +72,13 @@ const plain = async () => {
 
 				online.push(url)
 			})
-			.catch((error: Error) => console.log(error.message))
+			.catch((error: Error) => {
+				if ('Error' === error.name) {
+					console.log(error.message)
+				} else {
+					console.log(`${url} ${error.message} caused by ${error.cause}`)
+				}
+			})
     }
 
     writeFileSync('online.txt', randomize(online).join("\n"), 'utf8')
