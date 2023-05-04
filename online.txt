@@ -1,11 +1,11 @@
-https://icanhazip.com
-https://ident.me
 https://ipapi.co/ip
-https://ifconfig.co/ip
 https://www.trackip.net/ip
-https://tnedi.me
-http://whatmyip.info
+https://icanhazip.com
 https://api4.my-ip.io/ip.txt
+https://ident.me
 https://ipecho.net/plain
 https://api.ipify.org
 https://ifconfig.me/ip
+http://whatmyip.info
+https://tnedi.me
+https://ifconfig.co/ip
