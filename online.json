@@ -1,18 +1,17 @@
 {
-  "https://geolocation-db.com/json": "IPv4",
-  "https://ipapi.co/json": "ip",
-  "http://ip-api.com/json": "query",
+  "https://ident.me/json": "ip",
+  "http://www.geoplugin.net/json.gp": "geoplugin_request",
+  "https://api.ipify.org?format=json": "ip",
+  "https://api.hostip.info/get_json.php": "ip",
+  "https://ipinfo.io/json": "ip",
   "https://api.ipregistry.co/?key=tryout": "ip",
-  "https://httpbin.org/ip": "origin",
+  "https://geolocation-db.com/json": "IPv4",
+  "http://ip-api.com/json": "query",
+  "https://api4.my-ip.io/ip.json": "ip",
   "https://api.bigdatacloud.net/data/client-ip": "ipString",
   "https://ifconfig.co/json": "ip",
-  "https://api.ipify.org?format=json": "ip",
-  "https://ipinfo.io/json": "ip",
-  "https://ident.me/json": "ip",
-  "https://api4.my-ip.io/ip.json": "ip",
+  "https://httpbin.org/ip": "origin",
   "https://tnedi.me/json": "ip",
   "https://www.trackip.net/ip?json": "IP",
-  "http://www.geoplugin.net/json.gp": "geoplugin_request",
-  "https://json.geoiplookup.io": "ip",
-  "https://api.hostip.info/get_json.php": "ip"
+  "https://json.geoiplookup.io": "ip"
 }
