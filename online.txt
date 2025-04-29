@@ -1,9 +1,10 @@
-https://www.trackip.net/ip
-https://ipecho.net/plain
-https://ifconfig.me/ip
-https://ifconfig.co/ip
-https://api4.my-ip.io/ip.txt
 https://tnedi.me
+https://ipecho.net/plain
+https://ident.me
+https://api4.my-ip.io/ip.txt
+https://www.trackip.net/ip
+https://ipapi.co/ip
 https://icanhazip.com
 https://api.ipify.org
-https://ident.me
+https://ifconfig.co/ip
+https://ifconfig.me/ip
