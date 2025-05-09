@@ -1,17 +1,16 @@
 {
-  "https://httpbin.org/ip": "origin",
-  "https://geolocation-db.com/json": "IPv4",
-  "https://ifconfig.co/json": "ip",
-  "https://www.trackip.net/ip?json": "IP",
-  "https://ident.me/json": "ip",
   "https://json.geoiplookup.io": "ip",
-  "https://api.ipregistry.co/?key=tryout": "ip",
-  "http://ip-api.com/json": "query",
-  "https://ipapi.co/json": "ip",
-  "http://www.geoplugin.net/json.gp": "geoplugin_request",
+  "https://ifconfig.co/json": "ip",
+  "https://httpbin.org/ip": "origin",
   "https://ipinfo.io/json": "ip",
-  "https://api.bigdatacloud.net/data/client-ip": "ipString",
+  "http://www.geoplugin.net/json.gp": "geoplugin_request",
+  "https://ident.me/json": "ip",
+  "http://ip-api.com/json": "query",
+  "https://api.ipregistry.co/?key=tryout": "ip",
+  "https://www.trackip.net/ip?json": "IP",
+  "https://geolocation-db.com/json": "IPv4",
+  "https://tnedi.me/json": "ip",
   "https://api4.my-ip.io/ip.json": "ip",
-  "https://api.ipify.org?format=json": "ip",
-  "https://tnedi.me/json": "ip"
+  "https://api.bigdatacloud.net/data/client-ip": "ipString",
+  "https://api.ipify.org?format=json": "ip"
 }
