@@ -1,17 +1,17 @@
 {
-  "http://www.geoplugin.net/json.gp": "geoplugin_request",
-  "https://ifconfig.co/json": "ip",
-  "https://api.ipregistry.co/?key=tryout": "ip",
-  "https://json.geoiplookup.io": "ip",
-  "https://ipinfo.io/json": "ip",
+  "https://api.ipify.org?format=json": "ip",
   "https://api4.my-ip.io/ip.json": "ip",
+  "https://worldtimeapi.org/api/ip": "client_ip",
+  "http://www.geoplugin.net/json.gp": "geoplugin_request",
+  "https://www.trackip.net/ip?json": "IP",
+  "https://api.db-ip.com/v2/free/self": "ipAddress",
+  "https://api.bigdatacloud.net/data/client-ip": "ipString",
+  "https://geolocation-db.com/json": "IPv4",
   "https://httpbin.org/ip": "origin",
   "https://ident.me/json": "ip",
-  "https://api.ipify.org?format=json": "ip",
-  "http://ip-api.com/json": "query",
-  "https://www.trackip.net/ip?json": "IP",
-  "https://geolocation-db.com/json": "IPv4",
+  "https://ifconfig.co/json": "ip",
   "https://tnedi.me/json": "ip",
-  "https://api.bigdatacloud.net/data/client-ip": "ipString",
-  "https://api.db-ip.com/v2/free/self": "ipAddress"
+  "https://api.ipregistry.co/?key=tryout": "ip",
+  "https://ipinfo.io/json": "ip",
+  "http://ip-api.com/json": "query"
 }
