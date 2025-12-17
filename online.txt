@@ -1,7 +1,7 @@
-https://api4.my-ip.io/ip.txt
-https://icanhazip.com
 https://ifconfig.me/ip
-https://api.ipify.org
 https://ipecho.net/plain
+https://api4.my-ip.io/ip.txt
+https://api.ipify.org
 https://tnedi.me
+https://icanhazip.com
 https://www.trackip.net/ip
