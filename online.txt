@@ -1,6 +1,6 @@
-https://tnedi.me
-https://api4.my-ip.io/ip.txt
-https://ipecho.net/plain
-https://www.trackip.net/ip
 https://api.ipify.org
 https://icanhazip.com
+https://tnedi.me
+https://www.trackip.net/ip
+https://ipecho.net/plain
+https://api4.my-ip.io/ip.txt
