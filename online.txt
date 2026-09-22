@@ -1,7 +1,7 @@
-https://www.trackip.net/ip
 https://tnedi.me
-https://ident.me
 https://api.ipify.org
 https://ipecho.net/plain
 https://icanhazip.com
+https://www.trackip.net/ip
 https://ifconfig.me/ip
+https://ident.me
